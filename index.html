@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta description="GitHub Repos Getter Using Promises And Other Stuff">
+        <link rel="stylesheet" href="style.css">
+        <title>GitHub Repo</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading">
+                Remember 🍉
+            </h1>
+            <div class="input-group">
+                <input type="text" class="get-input" placeholder="Get your GitHub repos">
+                <button id="get-button">Get Repos</button>
+                <button id="reset-button">Reset Repos</button>
+            </div>
+            <div id="final-data">
+                <span>No Data To Show</span>  
+            </div>
+            <div class="test">
+                <h2>Usernames For Testing:</h2> 
+                <ul class="test-list">
+                    <li>Have repositories: <span>abdullahMohamed13</span></li>
+                    <li>Don't have repositories: <span>emad2laa</span></li>
+                    <li>Doesn't exist: <span>aWrongUsernameLOL</span></li>
+                </ul>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+<!-- Documentation about an error that I faced:- -->
+
+<!--
+    The error: (Failed to load resource: the server responded with a status of 403)
+    usually happens when the GitHub API request is blocked, typically due to exceeding the API rate limit.
+
+    By default, unauthenticated requests to the GitHub API are limited to 60 requests per hour from the same
+    IP address. If you exceed this limit, you'll receive a 403 Forbidden response (request.status = 403).
+-->
