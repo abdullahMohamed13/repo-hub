@@ -85,7 +85,10 @@ button:hover {
     opacity: 0.85;
 }
 #final-data {
+    position: relative;
     margin: 25px 0 20px;
+    width: 100%;
+    overflow-x: auto;
 }
 #final-data span {
     font-size: var(--text-size);
@@ -102,10 +105,13 @@ button:hover {
     color: #333;
 }
 /* Start Table */
+#repos-table th,
+#repos-table td {
+    text-align: left;
+}
 #repos-table th {
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
     padding: 10px;
     border-bottom: 2px solid #ddd;
 }
