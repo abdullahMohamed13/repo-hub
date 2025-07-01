@@ -1,8 +1,8 @@
-# Can You Get Me My Repos?
+# What the hell is repo-hub?
 
 ## Overview
 
-"Can You Get Me My Repos": is a JavaScript application that fetches and displays public repositories for any GitHub user using the GitHub API. Simply enter a GitHub username to view their repositories and key details such as repository name, creation date, size, and programming language.
+It is a JavaScript application that fetches and displays public repositories for any GitHub user using the GitHub API. Simply enter a GitHub username to view their repositories and key details such as repository name, creation date, size, and programming language.
 
 ## Features
 
